@@ -1,10 +1,17 @@
 Refer the following analysis steps which need to be applied to the given data set.
+
 Load and Query Time-Series Data (1)
+
 Feature Engineering in Time Series (2)
+
 Exploring Components (2)
+
 Resampling and Interpolation (3)
+
 Stationarity, Trend, and Seasonality (2)
+
 Autocorrelation and Partial Autocorrelation (2)
+
 Identify patterns for modelling. (3)
 
 
