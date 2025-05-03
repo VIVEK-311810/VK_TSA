@@ -6,9 +6,7 @@ Refer the following analysis steps which need to be applied to the given data se
 5. Stationarity, Trend, and Seasonality (2)
 6. Autocorrelation and Partial Autocorrelation (2)
 7. Identify patterns for modelling. (3)
-Eg.
-We will use the Daily Minimum Temperatures dataset, which can be loaded from:
-https://raw.githubusercontent.com/jbrownlee/Datasets/master/daily-min-temperatures.csv
+
 1. Load and Query Time-Series Data
 a. Load the time-series dataset from the given URL and display the first five rows. What
 function is used to load a CSV file in Python using pandas?
@@ -19,6 +17,7 @@ command would you use in pandas to retrieve this information?
 d. Extract all data from the year 1985. How do you filter data for a specific year using pandas?
 e. Generate the summary statistics of the dataset. What key statistical insights can be obtained
 from this summary?
+
 2. Feature Engineering in Time Series
 a. Create a new feature for the month and day of the week from the date column. What Python
 function extracts the month from a DateTime column?
@@ -28,11 +27,12 @@ c. Develop a rolling mean with a window of 7 days. How does a rolling mean help 
 smoothing the time series data?
 d. Create an expanding window feature that calculates the cumulative mean of temperature
 values. What is the difference between rolling and expanding windows?
+
 3. Exploring Temporal Relationships
 a. Plot the time series data using a line chart. What insights can you gather from the trend?
 
 b. Create a scatter plot with lagged values (e.g., temperature at day t vs. temperature at day t-
-1). What pattern would you expect in a strongly correlated time series?
+   1). What pattern would you expect in a strongly correlated time series?
 
 c. Generate an autocorrelation plot of the time series data. What does a significant
 autocorrelation at lag-1 indicate?
@@ -52,6 +52,7 @@ c. Downsample the dataset to a monthly frequency by taking the average temperatu
 does downsampling affect time series data?
 d. Group the data by year and compute the annual mean temperature. What statistical insights
 can you derive from grouped data?
+
 5. Stationarity, Trend, and Seasonality
 a. Apply the Augmented Dickey-Fuller (ADF) test to check for stationarity. What null
 hypothesis does the ADF test evaluate?
@@ -61,6 +62,8 @@ c. Decompose the time series into trend, seasonality, and residual components. W
 observations can be made from the decomposition?
 d. What are the possible transformations that can be applied to make a non-stationary time
 series stationary?
+
+
 6. Autocorrelation and Partial Autocorrelation
 a. Compute and plot the Autocorrelation Function (ACF) of the dataset. What does a slow
 decay in the ACF plot indicate?
